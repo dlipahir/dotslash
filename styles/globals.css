@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "lexend";
+    src: local("lexend"), url("../assets/Lexend.ttf") format("truetype");
+    font-weight: bold;
+}
+
+.inp {
+    height: 40px;
+    font-size: 17px;
+    padding: 20px 10px;
+    outline: none;
+    border: 1px solid #a4a4a4;
+    border-radius: 5px;
+    width: 100%;
+    font-family: "lexend";
+}
+
+.select {
+    width: 100%;
+
+    border: 1px solid #a4a4a4;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    font-family: "lexend";
+}
